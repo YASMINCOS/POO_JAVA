@@ -1,0 +1,23 @@
+
+public class Aluno {
+
+	
+	private String materia;
+	private String curso;
+	public void cancelarMatri() {
+		
+	}
+	public String getMateria() {
+		return materia;
+	}
+	public void setMateria(String materia) {
+		this.materia = materia;
+	}
+	public String getCurso() {
+		return curso;
+	}
+	public void setCurso(String curso) {
+		this.curso = curso;
+	}
+}
+

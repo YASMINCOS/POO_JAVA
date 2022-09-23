@@ -1,0 +1,48 @@
+
+public class Caneta {
+
+	String modelo="Bic";
+	String cor="Azul";
+	double tamanhoPonta=0.5;
+	int qntdCarga=90;
+	boolean tampada=true;
+	public void rabiscar() {
+			if(tampada==true) {
+				System.out.println("NAO PODE RABISCAR");
+			}else {
+				System.out.println("Pode rabiscar");
+			}
+			
+		}
+	public void	tampar() {
+			tampada=true;
+			System.out.println("Foi tampada:"+tampada);
+		}
+	public static void main(String[] args) {
+		
+		Caneta c1=new Caneta();
+		c1.cor="azul";
+		c1.tamanhoPonta=0.5;
+		c1.tampada=false;
+		c1.rabiscar();
+		
+		Caneta c2= new Caneta();
+		c2.cor="vermelha";
+		c2.tamanhoPonta=1.0;
+		c2.tampada=false;
+		c2.tampar();
+	}
+
+}
+//instanciar-gera obeto a partir de uma classe
+	//obj c1=new Caneta
+	//c1.cor="azul"
+	//c1.ponta=0.5;
+	//c1.tampada=false
+	//c1.rabiscar()
+	
+	//c2= new Caneta
+	//c2.cor="vermelha"
+	//c2.ponta=1.0;
+	//c2.tampada=false
+	//c2.tampar

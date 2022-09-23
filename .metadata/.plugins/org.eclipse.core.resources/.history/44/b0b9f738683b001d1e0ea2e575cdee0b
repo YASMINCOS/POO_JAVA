@@ -1,0 +1,37 @@
+
+public class Luta implements LutadorInterface {
+	
+	private String desafiado;
+	private String desafiante ;
+	private int rounds;
+	private boolean aprovada;
+	@Override
+	public void apresentar() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void status() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void ganharLuta() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void perderLuta() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void empatarLuta() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+
+}

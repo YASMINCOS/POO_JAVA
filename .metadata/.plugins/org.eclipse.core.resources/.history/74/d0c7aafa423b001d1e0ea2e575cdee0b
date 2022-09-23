@@ -1,0 +1,17 @@
+
+public class Faculdade {
+
+	String curso;
+	String professor;
+	int sala;
+	boolean aulaPratica;
+	boolean aulaTeorica;
+	void atualizar() {
+		System.out.println("Curso:"+ this.curso);
+		System.out.println("Professor :"+ this.professor);
+		System.out.println("Numero da sala: "+this.sala);
+		System.out.println("Aula pratica :"+this.aulaPratica);
+		System.out.println("Aula teoria: "+this.aulaTeorica);
+		
+	}
+}

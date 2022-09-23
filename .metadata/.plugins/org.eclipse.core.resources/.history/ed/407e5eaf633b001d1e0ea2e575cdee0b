@@ -1,0 +1,38 @@
+
+public class Lutador implements LutadorInterface {
+
+	private String nome;
+	private String nacionalidade;
+	private int idade;
+	private float altura;
+	private float peso;
+	private String categoria;
+	private int vitorias;
+	private int derrotas;
+	private int empates;
+	@Override
+	public void apresentar() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void status() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void ganharLuta() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void perderLuta() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void empatarLuta() {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,21 @@
+
+public class RelacionamentoEntreClasses {
+
+	public static void main(String[] args) {
+		
+		Lutador l[]=new Lutador[6];
+		
+		Lutador l=(Lutador) new Lutador("Pretty", "Boy", 31, 1.75f, 68.9f,11, 2, 1);
+		
+		
+		Lutador l[1]=new Lutador("Putscript", "Brasil", 29, 1.68f, 57.8f,14 , 2, 3);
+		
+		Lutador l[2]=new Lutador(null, null, 0, 0, 0, 0, 0, 0);
+		
+		Lutador l[3]=new Lutador(null, null, 0, 0, 0, 0, 0, 0);
+		
+		Lutador l[4]=new Lutador(null, null, 0, 0, 0, 0, 0, 0);
+		
+		Lutador l[5]=new Lutador(null, null, 0, 0, 0, 0, 0, 0);
+	}
+}

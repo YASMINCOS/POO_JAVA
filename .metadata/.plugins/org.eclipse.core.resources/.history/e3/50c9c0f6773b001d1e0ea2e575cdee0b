@@ -1,0 +1,8 @@
+
+public class Aluno {
+
+	
+	private String materia;
+	private String curso;
+}
+

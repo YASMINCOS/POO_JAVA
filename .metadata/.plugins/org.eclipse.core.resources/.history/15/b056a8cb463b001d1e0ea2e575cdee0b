@@ -1,0 +1,8 @@
+
+public class Visibilidade {
+
+	//exemplo telefone
+	//+publica-orelhao:classe atual e outras podem ter acesso
+	//-privado-celular: apenas a class atual pode ter acesso
+	//#protegida-telefone fixo-pessoas da casa:acesso atual e as subclasses
+}

@@ -1,0 +1,12 @@
+
+public class Livro {
+	
+	String titulo;
+	String autor;
+	int totPag;
+	int pagAtual;
+	boolean aberto;
+	String leitor;
+	
+
+}

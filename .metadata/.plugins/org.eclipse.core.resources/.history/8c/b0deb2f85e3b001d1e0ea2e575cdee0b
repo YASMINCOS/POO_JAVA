@@ -1,0 +1,8 @@
+
+public class ControleRemoto extends Controlador {
+
+	//protegendo a parte interna
+	private int volume;
+	private boolean ligado;
+	private boolean tocando;
+}

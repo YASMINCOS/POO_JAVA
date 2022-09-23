@@ -1,0 +1,15 @@
+
+public class Heranca {
+
+	public static void main(String[] args) {
+		Pessoa p1= new Pessoa();
+		Pessoa p2= new Aluno();
+		Pessoa p3=new Professor();
+		Pessoa p4= new Funcionario();
+		
+		p1.setNome("Joao");
+		p2.setNome("Maria");
+		p3.setNome("Fabiana");
+		p4.setNome("Aline");
+	}
+}

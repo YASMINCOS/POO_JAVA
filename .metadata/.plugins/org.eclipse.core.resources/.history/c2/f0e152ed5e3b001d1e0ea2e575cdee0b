@@ -1,0 +1,10 @@
+
+public interface Controlador  {
+
+	public void ligar() {
+		
+	}
+    public void desligar() {
+		
+	}
+}

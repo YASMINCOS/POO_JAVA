@@ -1,0 +1,16 @@
+
+public class MetodosEspeciais {
+//getters-metodo acessor-pega a informacao
+	//getSaldo-consultar o saldo
+	//e=nova Estante
+	//t=e.getTocDoc()
+	
+//metodos modificadores= setters
+	//modifica o qwue esta no objeto garantindo seguranca ao atributo
+	//e= nova Estante
+	//e.setToTDoc(doc)
+	public static void main(String[] args) {
+		
+	}
+	
+}
